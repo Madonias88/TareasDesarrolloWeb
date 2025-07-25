@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.tarjeta {
+    background-color: #889d52;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.tarjeta img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.tarjeta h1 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.tarjeta p {
+    color: #210a519c;
+    margin: 5px 0;
+    font-weight: bold;
+}

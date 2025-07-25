@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.tema-claro {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.tema-oscuro {
+    background-color: #333;
+    color: #f5f5f5;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#cambiarTema {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #0f31f1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.banner {
+    height: 200px;
+    background-image: url(fondoimagen.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    background-color: #2854e2;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #689adb;
+}
+
+nav ul .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #2854e2;
+    min-width: 120px;
+    z-index: 10;
+    padding: 0;
+}
+
+nav ul li:hover > .submenu {
+    display: block;
+}
+
+nav ul .submenu li a {
+    padding: 10px 15px;
+    color: white;
+    text-align: left;
+    background: #2854e2;
+    border-bottom: 1px solid #689adb;
+}
+
+nav ul .submenu li a:hover {
+    background: #1bbc1b;
+}
+
+.contenido {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
