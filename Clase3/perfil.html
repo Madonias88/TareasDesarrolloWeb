@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil Personal</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Mario Adonias Galvez Yoc</h1>
+        
+        <div class="seccion-perfil">
+            <img src="imagen.png" alt="Mi foto de perfil" class="avatar">
+            
+            <h2>¡Hola, soy Mario Adonias Galvez Yoc!</h2>
+            <p class="descripcion">
+                Estudiante de la licenciatura en Administración de Sistemas Informáticos.<br>
+                Enfocado en el aprendizaje del desarrollo web y programación.<br>
+                En mi tiempo libre disfruto de la música, películas y la naturaleza.
+            </p>
+        </div>
+        
+        <div class="seccion-datos">
+            <h3>Datos Personales</h3>
+            <table>
+                <tr>
+                    <th>Nombre:</th>
+                    <td>Mario Adonias Galvez Yoc</td>
+                </tr>
+                <tr>
+                    <th>Edad:</th>
+                    <td>36</td>
+                </tr>
+                <tr>
+                    <th>Carrera:</th>
+                    <td>Licenciatura en Administración de Sistemas Informáticos</td>
+                </tr>
+                <tr>
+                    <th>Correo:</th>
+                    <td>mario.galvez@example.com</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="seccion-contacto">
+            <h3>Contáctame</h3>
+            <form id="formulario-contacto">
+                <div class="campo-formulario">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                
+                <div class="campo-formulario">
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                
+                <div class="campo-formulario">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <div class="campo-formulario">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+                
+                <button type="submit" class="boton">Enviar Mensaje</button>
+            </form>
+        </div>
+        
+        <div class="botones-accion">
+            <button id="cambiar-color" class="boton">Cambiar Color de Fondo</button>
+            <button id="mostrar-alerta" class="boton">Mostrar Alerta</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

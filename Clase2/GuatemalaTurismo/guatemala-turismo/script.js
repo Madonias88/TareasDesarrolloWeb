@@ -1,8 +1,6 @@
 // Mensaje de bienvenida
 window.onload = function() {
-    if (window.location.pathname.endsWith('index.html')) {
-        alert('¡Bienvenido a los Sitios Turísticos de Guatemala!');
-    }
+    alert("¡Bienvenido a Guatemala Turismo! Explora nuestros sitios turísticos.");
 };
 
 // Función para cambiar el color de fondo (opcional)

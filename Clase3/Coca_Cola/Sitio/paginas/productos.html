@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coca-Cola - Productos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagenes/bannercoca.jpg" alt="Logo de Coca-Cola" height="60">
+        </div>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html" class="active" aria-current="page">Productos</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="contactanos.html">Contáctanos</a></li>
+                <li><a href="responsabilidad.html">Responsabilidad Social</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="featured-products">
+            <h2>Productos Destacados</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="imagenes/cocanormal.webp" alt="Botella de Coca-Cola Original" loading="lazy">
+                    <h3>Coca-Cola Original</h3>
+                    <p>El sabor clásico e inconfundible que ha refrescado generaciones.</p>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/cocazero.webp" alt="Botella de Coca-Cola Zero" loading="lazy">
+                    <h3>Coca-Cola Zero</h3>
+                    <p>Todo el sabor de Coca-Cola, ahora sin azúcar.</p>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/sprite.webp" alt="Botella de Sprite" loading="lazy">
+                    <h3>Sprite</h3>
+                    <p>El refrescante sabor lima-limón que despierta tus sentidos.</p>
+                </div>
+            </div>  
+        </section>  
+        <section class="product-comparison">
+            <h2>Comparativa de Productos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Presentación</th>
+                        <th>Azúcar</th>
+                        <th>Calorías</th>
+                        <th>Sabor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Coca-Cola Original</td>
+                        <td>355 ml</td>
+                        <td>35g</td>
+                        <td>140</td>
+                        <td>Clásico</td>
+                    </tr>
+                    <tr>
+                        <td>Coca-Cola Zero</td>
+                        <td>355 ml</td>
+                        <td>0g</td>
+                        <td>0</td>
+                        <td>Clásico sin azúcar</td>
+                    </tr>
+                    <tr>
+                        <td>Sprite</td>
+                        <td>355 ml</td>
+                        <td>38g</td>
+                        <td>140</td>
+                        <td>Lima-limón</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Av. Principal 123, Ciudad</p>
+                <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                <p><i class="fas fa-envelope"></i> contacto@cocacola.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces rápidos</h3>
+                <ul>
+                    <li><a href="nosotros.html">Sobre nosotros</a></li>
+                    <li><a href="productos.html">Nuestros productos</a></li>
+                    <li><a href="responsabilidad.html">Sostenibilidad</a></li>
+                    <li><a href="contacto.html">Trabaja con nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 The Coca-Cola Company. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

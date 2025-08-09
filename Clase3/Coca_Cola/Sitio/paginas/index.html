@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coca-Cola - Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagenes/bannercoke.jpg" alt="Logo de Coca-Cola" height="60">
+        </div>
+
+        <!-- Botón hamburguesa -->
+        <button class="menu-hamburguesa" aria-label="Abrir menú de navegación">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Menú principal -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="contactanos.html">Contáctanos</a></li>
+                <li><a href="responsabilidad.html">Responsabilidad Social</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Refresca tu mundo</h1>
+            <p>Descubre el sabor único de Coca-Cola</p>
+            <a href="productos.html" class="btn">Ver productos</a>
+        </div>
+    </section>
+
+    <main>
+        <section class="about-section">
+            <h2>Bienvenidos a Coca-Cola</h2>
+            <div class="about-content">
+                <p>Desde 1886, The Coca-Cola Company se ha comprometido a ofrecer bebidas de calidad que refrescan, hidratan y aportan momentos de felicidad a nuestros consumidores en todo el mundo.</p>
+                <p>Con más de 500 marcas y presencia en más de 200 países, continuamos innovando para satisfacer los gustos y necesidades cambiantes de nuestros consumidores, manteniendo siempre nuestra esencia y calidad inigualable.</p>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <h2>Nuestros Productos Destacados</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="imagenes/cocanormal.webp" alt="Botella de Coca-Cola Original" loading="lazy">
+                    <h3>Coca-Cola Original</h3>
+                    <p>El sabor clásico e inconfundible que ha refrescado generaciones.</p>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/cocazero.webp" alt="Botella de Coca-Cola Zero" loading="lazy">
+                    <h3>Coca-Cola Zero</h3>
+                    <p>Todo el sabor de Coca-Cola, ahora sin azúcar.</p>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/sprite.webp" alt="Botella de Sprite" loading="lazy">
+                    <h3>Sprite</h3>
+                    <p>El refrescante sabor lima-limón que despierta tus sentidos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-preview">
+            <h2>Últimas Noticias</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <img src="imagenes/noticia3.jpeg" alt="Imagen de la campaña Un Mundo Sin Residuos" loading="lazy">
+                    <h3>Lanzamos nuestra nueva campaña "Un Mundo Sin Residuos"</h3>
+                    <p>Comprometidos con un futuro más sostenible, anunciamos ambiciosas metas para 2030.</p>
+                    <a href="noticias.html" class="read-more">Leer más</a>
+                </article>
+                <article class="news-card">
+                    <img src="imagenes/sabores.jpg" alt="Botellas de Coca-Cola de diferentes sabores" loading="lazy">
+                    <h3>Presentamos Coca-Cola Sabores</h3>
+                    <p>La combinación perfecta entre el sabor de Coca-Cola y nuevos sabores frutales.</p>
+                    <a href="noticias.html" class="read-more">Leer más</a>
+                </article>
+            </div>
+            <div class="center">
+                <a href="noticias.html" class="btn">Ver todas las noticias</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Av. Principal 123, Ciudad</p>
+                <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                <p><i class="fas fa-envelope"></i> contacto@cocacola.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces rápidos</h3>
+                <ul>
+                    <li><a href="nosotros.html">Sobre nosotros</a></li>
+                    <li><a href="productos.html">Nuestros productos</a></li>
+                    <li><a href="responsabilidad.html">Sostenibilidad</a></li>
+                    <li><a href="contacto.html">Trabaja con nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 The Coca-Cola Company. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
