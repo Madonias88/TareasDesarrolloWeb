@@ -1,0 +1,13 @@
+/* Fondo general */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://munimixco.gob.gt/wp-content/uploads/2023/05/Portada-1-1-scaled.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+/* Para mejorar legibilidad */
+h1, h2, p {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
